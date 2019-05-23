@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/sslcheck",
+  "version": "1.0.0",
+  "description": "Check SSL/TLS certificates on remote domains",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/sslcheck.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/sslcheck.test.js"
+  },
+  "bin": {
+    "sslcheck": "./bin/cli.js"
+  }
+}
