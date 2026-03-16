@@ -18,5 +18,9 @@
   },
   "bin": {
     "sslcheck": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/sslcheck",
+  "bugs": {
+    "url": "https://github.com/idirdev/sslcheck/issues"
   }
 }
